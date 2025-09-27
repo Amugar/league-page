@@ -26,9 +26,9 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 
 export const managers = [
     {
-      "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "roster": "733739999731769344",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Turd",
-      "tookOver": 2025, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      //"tookOver": 2025, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Westy", // (optional)
       "bio": "Commisioner Turd is a fantasy football savant. Although he works for the rest of the leagues owner's he also relishes in pushing their shit in on a weekly basis through sheer force. He loves fantasy points and his beautiful wife's sweet pussy and that's just about it.",
       "photo": "/managers/Turd.jpg", // square ratio recommended (no larger than 500x500)
@@ -48,9 +48,9 @@ export const managers = [
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
-      "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "managerID": "462374875059712000" ,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "DaddyDu",
-      "tookOver": 2025, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      //"tookOver": 2025, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Easty", // (optional)
       "bio": "Father of 3 beautiful baby girls. RV sales by day, waiver wire by night. Nice guy, cool guy, the kinda guy you'd leave your dog with.",
       "photo": "/managers/DaddyDu.jpg", // square ratio recommended (no larger than 500x500)
@@ -70,9 +70,9 @@ export const managers = [
       "preferredContact": "Discord", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
-      "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "managerID": "1256752550678368256",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "CrazyEye",
-      "tookOver": 2025, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      //"tookOver": 2025, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Easty", // (optional)
       "bio": "A true agent of chaos, Crazy sure knows how to shake up a league. If he's not drinking a Coors Light it's because he finished his last one in the parking lot of the store to re-up. If he's not making a trade, it's because every player anyone might've wanted from his team is already gone. He's the man.",
       "photo": "/managers/crazyeye.jpg", // square ratio recommended (no larger than 500x500)
@@ -92,9 +92,9 @@ export const managers = [
       "preferredContact": "Phone", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
       {
-      "roster": 4,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "managerID": "1256766709629452288" ,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "R3spect",
-      "tookOver": 2025, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      //"tookOver": 2025, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Westy", // (optional)
       "bio": "If there's one thing R3spect knows it's how to trick a teenager to live on 35th Ave and Camelback for 4 years. That won't help him much in the DNBCL but he has seen a lot of early success. His experience was perfect for building a roster to beat up on inferior opponents. He's a great asset to the league.",
       "photo": "/managers/r3spect.jpg", // square ratio recommended (no larger than 500x500)
@@ -114,9 +114,9 @@ export const managers = [
       "preferredContact": "Email", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
       {
-      "roster": 5,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "managerID": "1128537378160779264",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Drumdaddy",
-      "tookOver": 2025, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      //"tookOver": 2025, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Easty", // (optional)
       "bio": "Drumdaddy's several years of experience putting out fires make him a great fit to manage his dogshit roster. Hopefully the whole thing doesn't go ablaze.",
       "photo": "/managers/crazyeye.jpg", // square ratio recommended (no larger than 500x500)
@@ -136,9 +136,9 @@ export const managers = [
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
       {
-      "roster": 6,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "managerID": "1257564921822969856",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "CharlesWags",
-      "tookOver": 2025, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      //"tookOver": 2025, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Westy", // (optional)
       "bio": "Bleeds dodger blue. Film junkie. Dangerous owner.",
       "photo": "/managers/charleswags.jpg", // square ratio recommended (no larger than 500x500)
@@ -158,9 +158,9 @@ export const managers = [
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
       {
-      "roster": 7,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "managerID": "1257850485084258304",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Chowzilla30",
-      "tookOver": 2025, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      //"tookOver": 2025, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Easty", // (optional)
       "bio": "Portland Seadog legend. Juco grinder. Guy knows how to get it out the mud. Might end up leaving his team in the mud but the other owners are happy to have him. Ask him if he gives a fuck about this league. Spoiler alert: He doesn't.",
       "photo": "/managers/zilla.jpg", // square ratio recommended (no larger than 500x500)
@@ -180,9 +180,9 @@ export const managers = [
       "preferredContact": "Carrier Pigeon", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
   {
-      "roster": 8,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "managerID": "1258296805917995009",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "AZJay26",
-      "tookOver": 2025, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      //"tookOver": 2025, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Westy", // (optional)
       "bio": "AZJay is the league's most experienced owner by a about a score (20 years for the r words). He was commissioner of a league that did everything on paper. Had to wait for the newspaper to put all the box scores together for his owners. He is the father of 2 girls and 1 turd.",
       "photo": "/managers/azjay.jpg", // square ratio recommended (no larger than 500x500)
